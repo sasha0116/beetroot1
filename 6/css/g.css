@@ -1,0 +1,217 @@
+
+*{ 
+
+	box-sizing: border-box;
+	color: #c2c2c2;
+	font-family: Arial, sans-serif;
+
+}
+
+body{
+	background-color:#f1f1f1;
+
+
+}
+/*поиск*/
+.button {
+    height:80px;
+    text-decoration: none;
+    margin-left: 25%;
+}
+.button:hover{
+    height: 100px;
+    outline: none;
+}
+
+
+input[type="text"]::placeholder {
+    color: #c2c2c2;
+}
+
+.search{
+    border: none;
+    background-color: #f1f1f1;
+    font-size: 93px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 1% 0 0 10%;
+    width: 50%;
+    outline: none;
+    color: #ec5a62;
+    line-height: 140px;
+}
+
+
+/* меню*/
+.menu{
+	text-transform: uppercase;
+	font-size: 16px;
+	
+}
+
+.dolbs{
+	display: inline-block;
+	width:100%
+}
+
+.bord{
+	
+	padding-top: 1%;
+	margin-left: 10%;
+	margin-right: 0;
+	width: 80%;
+	font-size: 13px;
+	font-weight: bolder;
+
+	 
+	}
+
+
+
+ .tab{
+	
+	display: inline-block;
+	width:30%;
+	margin-left:0;
+
+	
+
+	
+}
+/*таблицы*/
+.tabl{
+   
+	display: inline-block;
+	width:30%;
+	margin-left: 4.6%;
+	margin-right: 4.6%;
+
+}
+
+.tabs{
+	
+	display: inline-block;
+	width:30%;
+    margin-right: 0;
+     
+}
+
+
+/*первая таблица*/
+.singer, {
+	border-radius:5px;
+	background-color:#ebebed;
+	
+	
+}
+
+.singer a{
+	display: block;
+	padding: 3%;
+	margin: 1%;
+	text-decoration: none;
+
+}
+
+.singer img {
+	display:inline-block;
+	border-radius:50%;
+}
+
+.singer span{
+	display:inline-block;
+	line-height: 20
+	px;
+	vertical-align: top;
+	padding-left: 3%;
+
+}
+
+div .tab :hover span {
+    color: #ec5a62;
+
+}
+
+.singer:hover {
+    background-color: rgba(118,117,128,0.1)
+}
+
+
+
+/*вторая таблица*/
+.popular{
+	border-radius:5px;
+	background-color:#ebebed;
+	
+}
+
+.popular a{
+	display: block;
+	padding: 3%;
+	margin: 1%;
+	text-decoration: none;
+}
+
+.popular img {
+	display:inline-block;
+	
+}
+
+.popular span{
+	display:inline-block;
+	line-height: 50px;
+	vertical-align: top;
+padding-left: 3%;
+
+}
+
+div .tabl :hover span {
+    color: #ec5a62;
+
+}
+
+.popular:hover {
+    background-color: rgba(118,117,128,0.1)
+}
+
+
+
+/*третья таблица*/
+.resent
+{
+	border-radius:5px;
+	background-color:#ebebed;
+	margin-right : 0;
+	
+}
+
+.resent a{
+	display: block;
+	padding: 3%;
+	margin: 1%;
+	text-decoration: none;
+}
+
+
+
+.resent img {
+	display:inline-block;
+}
+
+.resent span{
+	display:inline-block;
+	line-height: 50px;
+	vertical-align: top;
+	padding-left: 3%;
+
+}
+
+
+div .tabs :hover span {
+    color: #ec5a62;
+
+}
+
+.resent:hover {
+   background-color: rgba(118,117,128,0.1)
+}

@@ -1,0 +1,117 @@
+
+
+body{
+	background-color:#383d43;
+	font-family: "Trebuchet MS", Trebuchet, Arial, san-serif;
+    margin:auto;
+    text-align: center;
+    color:#ec7f72;
+}
+
+/*анимация*/
+*{
+    transition: all .1s ease-in;
+}
+ 
+ /*оформление шапки*/
+.header{
+	background-color:#484e55;
+	color:#ec7f72;
+	padding:1px;
+	margin-bottom: 40px;
+	height: 100px;
+	line-height: 1px;
+}
+
+/*оформление заголовка*/
+.list{
+	font-size:40px;
+	font-weight:bold;
+}
+
+.go{
+    font-size:25px;
+}
+
+/*задаем настройки таблице*/
+.tabl{
+	height: 390px;
+	width: 800px;
+    
+    text-align: left;
+    color:white;
+    background-color: #7b7594;
+}
+
+/*расширение для названий меню*/
+.lot{
+	font-size:x-large;
+	font-weight:bold;
+}
+
+/*расширение для дополнения меню*/
+.next{
+	font-size:18px;
+	font-weight: lighter;
+	color: #cbcbcc;
+}
+
+/*ставим скобки для дополнений*/
+span:before{
+ content:"("
+}
+
+span:after{
+content:")"
+}
+
+
+/*все четные елементы меняют цвет*/
+tr:nth-child(odd){
+    background: #89849f;
+}
+
+/*перечеркивание текста при нажатии*/
+input:checked+label{
+text-decoration: line-through;
+color:#959cb7;
+}
+
+/*делаем белые границы при наведении*/
+tr:hover{
+background-color: #625d77; 
+color: #ffffff;
+border-bottom: 4px solid white;
+border-top: 4px solid white;
+}
+
+/* делаем чекбоксы для выбора*/
+input[type="checkbox"]{
+	height:25px;
+	width:40px;
+}	
+
+/*перечеркивание текста при выборе*/
+input:checked+label .next{
+text-decoration: line-through;
+color:#9a92a7;
+}
+
+/*при нажатии поле меняет цвет*/
+
+tr:active{
+	background-color:#EF5D5D;
+}
+
+/*оформление подвала*/
+#footer{
+	background-color:#484e55;
+	width:785px;
+	height:60px;
+    margin:40px 400px;
+    font-size:25px;
+    padding: 9px;
+	line-height: 2px;
+	font-weight:normal;
+}   
+

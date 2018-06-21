@@ -1,0 +1,130 @@
+
+* {
+	margin: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+body {
+
+	color:white;
+    background-color: #309acd;
+    border: 20px solid #2782ad;
+}
+
+span {
+	font-size: 25px;
+}
+
+.tab {
+	padding-top:6%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 15%;
+    
+
+ }
+
+ul {
+	padding-left:0;
+    font-size: 0;
+    list-style-type: none;
+    height: 70%;
+    background-color: white;
+ }
+
+li {
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 4%;
+    
+ }
+
+
+
+.lis{
+	height: 110px;
+	width: 50%;
+	background-color: #309acd;
+}
+
+.par{
+	height: 110px;
+	width: 25%;
+	background-color:#30cdcd;
+}
+
+.bel{
+	height: 110px;
+	width: 25%;
+	background-color:#9a669a; 
+}
+
+.mos{
+	height: 110px;
+	width: 25%;
+	background-color:#c34545;
+}
+
+.tel{
+	height: 110px;
+	width:25%;
+	background-color: #e36749;
+}
+
+.car{
+	height: 110px;
+	width: 25%;
+	background-color: #ffcd66;
+}
+
+.new{
+	height: 110px;
+	width: 25%;
+	background-color: #9acd9a;
+}
+
+.del{
+	height: 110px;
+	width: 25%;
+	background-color: #669a9a;
+}
+
+.san{
+	height: 110px;
+	width: 50%;
+	background-color: #cd669a;
+}
+
+.tok{
+	height: 110px;
+	width: 25%;
+	background-color: #309a66;
+}
+
+.syd{
+	height: 110px;
+	width: 100%;
+	background-color: #66669a;
+}
+
+
+ul:hover li {
+   
+    opacity: 0.7;
+    
+}
+
+ul li:hover {
+    
+    opacity: 1;
+}
+
+

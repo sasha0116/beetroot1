@@ -1,0 +1,149 @@
+*{
+    font-family: 'Montserrat', sans-serif ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+ .background{
+     position: relative;
+     width: 800px;
+     height: 600px;
+    margin-left: 25%;
+    max-width: 1200px;
+    margin-top: 5%;
+    background: url("../img/unsplash.png") no-repeat 10%, url("../img/Layer 2.jpg");
+
+
+}
+.conteiner{
+    position: absolute;
+    margin-top: 35px;
+    width: 340px;
+    border: 2px solid black;
+    margin-left: 231px;
+
+
+
+}
+.top{
+    background-color: #f8ecaf;
+
+    padding: 25px;
+}
+
+h1{
+    font-size: 14px;
+    color: rgb(110,127,123);
+    font-weight: bold;
+}
+
+h2{
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: rgb(166,162,141);
+    font-weight: 500;
+}
+
+h3{
+    float: right;
+    font-weight: 600;
+    margin-top: -30px;
+    font-size: 36px;
+    letter-spacing: -2px;
+    color: rgb(99,117,112);
+
+}
+
+.cont {
+    font-size: 13px;
+    color: rgb(158, 171, 173);
+    padding-right: 23px;
+    padding-left: 23px;
+    background-color: #ffffff;
+    padding-top: 40px;
+
+}
+
+input {
+    width: 270px;
+    padding: 10px;
+    margin-bottom: 25px;
+
+}
+
+input:hover, select:hover {
+    border: 2px solid #7eccdf;
+}
+
+.month {
+    color: rgb(114, 127, 130);
+    font-size: 13px;
+    width: 174px;
+    height: 42px;
+    background: transparent;
+
+}
+
+.year {
+    color: rgb(114, 127, 130);
+    font-size: 13px;
+    width: 95px;
+    height: 42px;
+    float: right;
+    background: transparent;
+}
+
+.cvv {
+
+    padding-top: 25px;
+    font-size: 13px;
+    color: rgb(158, 171, 173);
+}
+
+.cvv__text {
+    width: 94px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 0;
+
+}
+
+.separator {
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.text {
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(158, 171, 173);
+    float: right;
+    margin-top: 25px;
+    letter-spacing: normal;
+    padding-right: 9px;
+}
+
+.pay {
+    width: 288px;
+    height: 47px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #24b86a;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.order {
+    font-size: 12px;
+    color: rgb(158, 171, 173);
+    text-align: center;
+    padding-bottom: 25px;
+    list-style: none;
+}
+
+
